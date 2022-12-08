@@ -1,4 +1,9 @@
 # To Develop code for eGRID data ingestion
+## To download the original file
+run `python download.py`
+## To process the data for data ingestion
+run `python process.py`
+**The result will be stored in `raw_data` folder as `egrid2020_data.csv`.**
 ## Columns
 - 'Data Year' -- 'Year'(int)
 - 'Plant name' -- 'Name'(str)
