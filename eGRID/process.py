@@ -82,7 +82,7 @@ IMPORT_COLUMNS = [
     'PlantCapacityFactor', 'nameplateCapacity', 'plantAnnualNetGeneration',
     'plantAnnualNOxEmissions', 'plantAnnualSO2Emissions',
     'plantAnnualCO2Emissions', 'plantAnnualCH4Emissions',
-    'plantAnnualN2OEmissions', 'plantAnnualCO2EuivalentEmissions',
+    'plantAnnualN2OEmissions', 'plantAnnualCO2EquivalentEmissions',
     'plantAnnualNOxTypeTotalOutputEmissionRate',
     'plantAnnualOzoneSeasonNOxTotalOutputEmissionRate',
     'plantAnnualSO2TotalOutputEmissionRate',
@@ -226,7 +226,7 @@ def update_frame(df):
     df_new['plantAnnualCO2Emissions'] = df['Plant annual CO2 emissions (tons)']
     df_new['plantAnnualCH4Emissions'] = df['Plant annual CH4 emissions (lbs)']
     df_new['plantAnnualN2OEmissions'] = df['Plant annual N2O emissions (lbs)']
-    df_new['plantAnnualCO2EuivalentEmissions'] = df[
+    df_new['plantAnnualCO2EquivalentEmissions'] = df[
         'Plant annual CO2 equivalent emissions (tons)']
     df_new['plantAnnualNOxTypeTotalOutputEmissionRate'] = df[
         'Plant annual NOx total output emission rate (lb/MWh)']
