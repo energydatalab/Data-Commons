@@ -1,0 +1,54 @@
+
+Node: dcid:plantAnnualNOxEmissions
+typeOf: dcs:StatisticalVariable
+populationType: dcs:Emissions
+measuredProperty: dcs:amount
+statType: dcs:measuredValue
+measurementQualifier: dcs:Annual
+emittedThing: dcs:NOx
+rangeIncludes: Quantity
+
+Node: dcid:plantAnnualSO2Emissions
+typeOf: dcs:StatisticalVariable
+populationType: dcs:Emissions
+measuredProperty: dcs:amount
+statType: dcs:measuredValue
+measurementQualifier: dcs:Annual
+emittedThing: dcs:SO2
+rangeIncludes: Quantity
+
+Node: dcid:plantAnnualCO2Emissions
+typeOf: dcs:StatisticalVariable
+populationType: dcs:Emissions
+measuredProperty: dcs:amount
+statType: dcs:measuredValue
+measurementQualifier: dcs:Annual
+emittedThing: dcs:CO2
+rangeIncludes: Quantity
+
+Node: dcid:plantAnnualCH4Emissions
+typeOf: dcs:StatisticalVariable
+populationType: dcs:Emissions
+measuredProperty: dcs:amount
+statType: dcs:measuredValue
+measurementQualifier: dcs:Annual
+emittedThing: dcs:CH4
+rangeIncludes: Quantity
+
+Node: dcid:plantAnnualN2OEmissions
+typeOf: dcs:StatisticalVariable
+populationType: dcs:Emissions
+measuredProperty: dcs:amount
+statType: dcs:measuredValue
+measurementQualifier: dcs:Annual
+emittedThing: dcs:N20
+rangeIncludes: Quantity
+
+Node: dcid:plantAnnualCO2EquivalentEmissions
+typeOf: dcs:StatisticalVariable
+populationType: dcs:Emissions
+measuredProperty: dcs:amount
+statType: dcs:measuredValue
+measurementQualifier: dcs:Annual
+emittedThing: dcs:CO2Equivalent
+rangeIncludes: Quantity
