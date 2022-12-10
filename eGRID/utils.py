@@ -30,7 +30,7 @@ def plant_code_to_dcid(plant_code):
 
 
 def plant_owner_id_to_dcid(plant_owner_id, prefix_dcid=False):
-    dcid = f'eia/u/{code_to_str(plant_owner_id)}'
+    dcid = f'egrid/owner/{code_to_str(plant_owner_id)}'
     if prefix_dcid:
         return f'dcid:{dcid}'
     return dcid

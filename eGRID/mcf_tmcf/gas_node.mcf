@@ -1,0 +1,24 @@
+
+Node: dcid:NOx
+typeOf: dcs:GreenhouseGas
+name: "NOx"
+
+Node: dcid:SO2
+typeOf: dcs:GreenhouseGas
+name: "SO2"
+
+Node: dcid:CO2
+typeOf: dcs:GreenhouseGas
+name: "CO2"
+
+Node: dcid:CH4
+typeOf: dcs:GreenhouseGas
+name: "CH4"
+
+Node: dcid:N20
+typeOf: dcs:GreenhouseGas
+name: "N20"
+
+Node: dcid:CO2Equivalent
+typeOf: dcs:GreenhouseGas
+name: "CO2Equivalent"

@@ -1,0 +1,8 @@
+Node: E:eGRID->PowerPlant
+dcid: C:eGRID->Dcid
+typeOf: dcs:PowerPlant
+name: C:eGRID->Name
+countainedInPlace: C:eGRID->CountyDcid
+latitude: C:eGRID->Latitude
+longitude: C:eGRID->Longitude
+...
